@@ -1,0 +1,92 @@
+#main_body{
+    background-color: rgb(215, 233, 250);
+    
+}
+
+#weather_box{
+    background-color: whitesmoke;
+    border: solid black 2px;
+    margin: 10px;
+    margin-top: 5vh;
+}
+#weather_heading{
+    background-color: blue;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+#covid_box{
+    background-color: whitesmoke;
+    border: solid black 2px;
+    margin: 10px;
+    margin-top: 10vh;
+}
+#covid_heading{
+    background-color: blue;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+
+#search_panel{
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: 5px;
+}
+#text_field{
+    background: transparent;
+    border: none;
+    width: 60%;
+}
+#search_btn{
+    background: transparent;
+    border: none;
+}
+#display_box{
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: 5px;
+    padding-bottom: 10px;
+}
+#topheadlines_box{
+    border: solid black 2px;
+    background-color: whitesmoke;
+    margin: 10px;
+    margin-top: 5vh;
+    height: 92vh;
+}
+#topheadlines_heading{
+    background-color: blue;
+    border-radius: 10px;
+    color: whitesmoke;
+    text-align: center;
+    margin: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#footer{
+    background: black;
+    color: whitesmoke;
+    height: 10vh;
+    text-align: center;
+}
+
+#news_box{
+    height: 79vh;
+    margin: 5px;
+    border: solid black 2px;
+    overflow: scroll;
+}
+
+#news_box::-webkit-scrollbar{
+    display: none;
+}
